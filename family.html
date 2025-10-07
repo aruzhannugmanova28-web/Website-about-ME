@@ -1,0 +1,103 @@
+<html>
+<head>
+  <title>Kazakhstan</title>
+  <link rel="stylesheet" href="styles.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  font-size: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 10px;
+  max-width: 350px;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>I'm from Astana, Kazakhstan 🇰🇿</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME page</a></li>
+      <li><a href="other.html">Kazakhstan!</a></li>
+      <li><a href="family.html">My family</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="usa.html">USA?</a></li>
+      <li><a href="fun_facts.html">Fun facts!</a></li>
+    </ul>
+  </nav>
+
+<article>
+    <img src="family!.JPG" alt="little me!" width="900" height="600">
+    <h1>My family :)</h1>
+    <p>My name is Aruzhan, which from kazakh language translates as a "beautiful soul." I find it quite interesting and motivational as it keeps reminding me to always strive to be a better version of myself.</p>
+    <p>I'd love to tell you more about myself, please check other pages to get to know me a little bit more! YAY!</p>
+  </article>
+  
+
+</section>
+
+
